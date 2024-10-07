@@ -1,6 +1,5 @@
 # Ear-VoM
 
-# d-vector & x-vector Model Training
 
 ## d-vector
 
