@@ -15,7 +15,7 @@ The d-vector model is designed to learn embeddings that effectively differentiat
 - Ensure that embeddings of the same speaker, even with varying emotions, are closely aligned.
 
 ### Visualize by t-SNE
-![image](https://github.com/user-attachments/assets/9c98426a-4941-4457-b50c-663b2a1a9837)
+<img src=https://github.com/user-attachments/assets/9c98426a-4941-4457-b50c-663b2a1a9837 width=1000>
 
 ## x-vector
 
