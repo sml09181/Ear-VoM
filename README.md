@@ -32,5 +32,5 @@ The x-vector model aims to distinguish between different deep voice generation m
 ---
 
 ## Reference
-+ dvector: [yistLin](https://github.com/yistLin/dvector)
-+ xvector: [KrishnaDN](https://github.com/KrishnaDN/x-vector-pytorch)
++ d-vector: [yistLin](https://github.com/yistLin/dvector)
++ x-vector: [KrishnaDN](https://github.com/KrishnaDN/x-vector-pytorch)
