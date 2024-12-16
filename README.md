@@ -2,7 +2,6 @@
 
 I propose **Ear-VoM**, an integrated system designed to prevent and address voice phishing, consisting of three stages: prevention, response & reporting, and investigation. This repository contains **two simple experiments to support the core ideas of Ear-VoM**.
 
-
 *2024년 2학기 이화여자대학교 도전학기제 프로젝트로 진행하였음.*
 <br>
 
@@ -36,6 +35,11 @@ The x-vector model aims to distinguish between different deep voice generation m
 - Effectively classify and differentiate between the outputs of various deep voice generation models.
 
 ---
+
+## Related Repository
++ [Korean-SV2TTS](https://github.com/sml09181/Korean-SV2TTS)
++ [Deepvoice-Detection-FL](https://github.com/sml09181/Deepvoice-Detection-FL)
+
 
 ## Reference
 + d-vector: [yistLin](https://github.com/yistLin/dvector)
