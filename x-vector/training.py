@@ -50,7 +50,7 @@ device = torch.device("cuda" if use_cuda else "cpu", 0)
 model = X_vector(args.input_dim, args.num_classes).to(device)
 optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=0.0, betas=(0.9, 0.98), eps=1e-9)
 loss_fun = nn.CrossEntropyLoss()
-model_dir = '/scratch/x-vector/models'
+model_dir = '/x-vector/models'
 writer = SummaryWriter(Path(model_dir) / "logs" / time.strftime('%y%m%d-%X'))
 
 

@@ -4,7 +4,7 @@ import json
 
 result = []
 src = [
-    os.path.join("/scratch/ASVspoof2019/ASVspoof2019_LA_cm_protocols", x) 
+    os.path.join("/ASVspoof2019/ASVspoof2019_LA_cm_protocols", x) 
     in ["ASVspoof2019.LA.cm.train.trn.txt", "ASVspoof2019.LA.cm.eval.trl.txt", "ASVspoof2019.LA.cm.dev.trl.txt"]
 ]
 paths = [["training.txt", "validation.txt", "testing.txt"], ['train', 'dev', 'eval']]
@@ -31,7 +31,7 @@ for i, s in enumerate(src):
     for k, v in temp.items():
         for f in v:
             audio_filename =f+ ".flac"
-            audio_path = os.path.join(f"/scratch/ASVspoof2019/ASVspoof2019_LA_{paths[1][i]}/flac", audio_filename)
+            audio_path = os.path.join(f"/ASVspoof2019/ASVspoof2019_LA_{paths[1][i]}/flac", audio_filename)
             w.write(audio_path+" "+str(k) + '\n')
     w.close()
 

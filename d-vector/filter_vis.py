@@ -7,8 +7,8 @@ import pandas as pd
 from tqdm import tqdm
 
 input_file_path = '/result/meta/filtered_metadata.json'
-input_data_dir = '/scratch/d-vector/filtered/'
-output_dir = '/scratch/d-vector/filtered3'
+input_data_dir = '/d-vector/filtered/'
+output_dir = '/d-vector/filtered3'
 os.makedirs(output_dir, exist_ok=True)
 metadata = []
 cnt = 0

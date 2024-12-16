@@ -1,6 +1,12 @@
 # Ear-VoM
 
 
+*2024년 2학기 이화여자대학교 도전학기제 프로젝트로 진행하였음.*
+<br>
+
+I propose Ear-VoM, an integrated system designed to prevent and address voice phishing, consisting of three stages: prevention, response & reporting, and investigation. This repository contains two simple experiments to support the core ideas of Ear-VoM.
+
+
 ## d-vector
 
 ### Overview

@@ -64,7 +64,7 @@ def extract_files(folder_path):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser("Configuration for data preparation")
-    parser.add_argument("--processed_data", default="/scratch/ASVspoof2019", type=str, help='Dataset path')
+    parser.add_argument("--processed_data", default="/ASVspoof2019", type=str, help='Dataset path')
     parser.add_argument("--meta_store_path", default="/result/meta/", type=str, help='Save directory after processing')
     config = parser.parse_args()
     train_list, test_list, val_lists = extract_files(config.processed_data)
